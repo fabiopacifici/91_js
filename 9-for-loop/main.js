@@ -106,3 +106,23 @@ for (let index = 0; index < 100; index++) {
 
   //oppure cosa possiamo utilizzare per aggiungere elementi al DOM?
 }
+
+
+/* Loop a string */
+
+//         0123456789   
+let str = 'This is my string'; // str.length 17
+
+/* for (var i = 0; i < str.length; i++) {
+  alert(str.charAt(i));
+}
+ */
+for (let i = 0; i < str.length; i++) {
+  console.log(str[i]);
+}
+
+// Read a string
+console.log(str);
+// read 
+console.log(str[Math.floor(Math.random() * str.length )]);
+

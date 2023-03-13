@@ -1,0 +1,27 @@
+body {
+  background: #000;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.container > div {
+  width: calc((100% / 10) - .5rem);
+  aspect-ratio: 1 / 1;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
