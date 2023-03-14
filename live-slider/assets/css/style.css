@@ -1,0 +1,7 @@
+body {
+background: #ededed;
+}
+
+.images img:not(.active) {
+  display: none;
+}
